@@ -1,0 +1,579 @@
+{
+  "scrapedAt": "2026-09-26",
+  "hero": {
+    "title": "A Specialist Recruiter for the Built Environment",
+    "lede": "Supplying White Collar, Blue Collar and Executive Search to all areas of construction, house building, rail and infrastructure nationwide."
+  },
+  "nav": [
+    {
+      "label": "Jobs",
+      "href": "https://fawkesandreece.co.uk/jobs",
+      "children": []
+    },
+    {
+      "label": "About",
+      "href": "https://fawkesandreece.co.uk/about-us",
+      "children": [
+        {
+          "label": "About Us",
+          "href": "https://fawkesandreece.co.uk/about-us"
+        },
+        {
+          "label": "Our Values",
+          "href": "https://fawkesandreece.co.uk/about-us/our-values"
+        },
+        {
+          "label": "What Our Clients Say",
+          "href": "https://fawkesandreece.co.uk/about-us/our-track-record"
+        },
+        {
+          "label": "Join Our Team",
+          "href": "https://fawkesandreece.co.uk/about-us/join-our-team"
+        },
+        {
+          "label": "Diversity & Inclusion",
+          "href": "https://fawkesandreece.co.uk/about-us/diversity-inclusion"
+        },
+        {
+          "label": "Social Value",
+          "href": "https://fawkesandreece.co.uk/about-us/socialvalue"
+        }
+      ]
+    },
+    {
+      "label": "Sectors",
+      "href": "https://fawkesandreece.co.uk/sectors",
+      "children": [
+        {
+          "label": "Building Services",
+          "href": "https://fawkesandreece.co.uk/building-services-jobs"
+        },
+        {
+          "label": "Build",
+          "href": "https://fawkesandreece.co.uk/build-jobs"
+        },
+        {
+          "label": "Civil Engineering",
+          "href": "https://fawkesandreece.co.uk/civil-engineering-jobs"
+        },
+        {
+          "label": "Facilities Management Jobs",
+          "href": "https://fawkesandreece.co.uk/facilities-management-jobs"
+        },
+        {
+          "label": "Fit Out and Interiors",
+          "href": "https://fawkesandreece.co.uk/fit-out-and-interiors-jobs"
+        },
+        {
+          "label": "House Building",
+          "href": "https://fawkesandreece.co.uk/house-building-jobs"
+        },
+        {
+          "label": "Professional Services",
+          "href": "https://fawkesandreece.co.uk/professional-services-jobs"
+        },
+        {
+          "label": "Rail",
+          "href": "https://fawkesandreece.co.uk/rail-jobs"
+        },
+        {
+          "label": "Social Housing & New Homes",
+          "href": "https://fawkesandreece.co.uk/social-housing-jobs"
+        },
+        {
+          "label": "Trades & Labour Jobs",
+          "href": "https://fawkesandreece.co.uk/trades-labour-job-recruitment"
+        }
+      ]
+    },
+    {
+      "label": "Client Focused Solution",
+      "href": "https://fawkesandreece.co.uk/client-focused-solution",
+      "children": []
+    },
+    {
+      "label": "Clients",
+      "href": "https://fawkesandreece.co.uk/clients",
+      "children": []
+    },
+    {
+      "label": "Our People",
+      "href": "https://fawkesandreece.co.uk/our-people",
+      "children": []
+    },
+    {
+      "label": "Contact",
+      "href": "https://fawkesandreece.co.uk/contacts",
+      "children": []
+    },
+    {
+      "label": "Blog",
+      "href": "https://fawkesandreece.co.uk/category/blog",
+      "children": []
+    }
+  ],
+  "whatWeDo": {
+    "intro": "Fawkes & Reece provide staffing and recruitment services to the leading organisations within the built environment, covering the whole of the UK.",
+    "items": [
+      {
+        "title": "Preferred Recruitment Suppliers to a Dedicated Construction & Rail Client Base",
+        "body": "We manage the recruitment programmes as both a partner and sole supplier for a portfolio of the most respected and leading construction and rail companies within the UK. As a preferred supplier we appoint a dedicated and professional team to manage the delivery of a high quality service. This is led by one of our experienced Account Managers who maintains communication, ensuring all stakeholders are on the same page and that we keep an eye on detail, order of priority and quality."
+      },
+      {
+        "title": "Specialists in Search & Selection",
+        "body": "We are proven search specialists. Search in this instance means research, market intelligence, profiling and approach. As search specialists we manage exclusive vacancies from key, hard to fill roles to all levels of director and board appointments and we have a track record for successful delivery. We manage each search in a considered manner, managing the process in a sensitive and effective way."
+      },
+      {
+        "title": "Professional Suppliers for Freelance and Interim Construction Placements",
+        "body": "Fawkes & Reece work closely with a database of professional candidates who support our clients for blue collar and interim construction placements. Working in collaboration with our freelance candidates we are able to supply all levels of professionals on either an hourly, daily or weekly rate. Our candidates are reference checked, fully compliant and looked after by a specialist Contracts and Compliance Team and Payroll Managers."
+      }
+    ]
+  },
+  "why": {
+    "paragraphs": [
+      "At Fawkes & Reece we operate by our 5 core values:",
+      "These values are integral in enabling us to build careers for our candidates as well as our own staff and in helping our clients achieve their staffing and recruitment goals.",
+      "We work with a select client base that reflects the top 100 companies in each technical sector we work in and we have staff who are well trained, REC qualified and well resourced.",
+      "The Senior Management Team are all hands on and are made up of industry experts and individuals who are all committed to these values of Fawkes & Reece."
+    ],
+    "values": [
+      "Ambition",
+      "Invest",
+      "Care",
+      "Deliver",
+      "Succeed"
+    ]
+  },
+  "band": "Contact a dedicated team member",
+  "testimonials": [
+    {
+      "name": "Ian Cheung",
+      "role": "Managing Director – Sir Robert McAlpine",
+      "credit": "Ian Cheung - Managing Director - Sir Robert McAlpine",
+      "quote": [
+        "By way of encouragement and support, I thought you should know that in the South East, we have found you and your team to be very responsive and we feel you treat our needs as a real priority.",
+        "On the whole, we also feel your recruitment team makes an effort to screen candidates for their suitability for roles and manages the recruitment process very well.",
+        "Thank you for your support and we look forward to our continuing positive working relationship."
+      ]
+    },
+    {
+      "name": "Grant Findlay",
+      "role": "Business Development Director – Sir Robert McAlpine",
+      "credit": "Grant Findlay - Business Development Director - Sir Robert McAlpine",
+      "quote": [
+        "I have been working with Fawkes and Reece for a number of years recruiting all levels and types of job roles for Sir Robert McAlpine and they have provided an excellent standard of service throughout. They have developed a real understanding of our business and the values that underpin how we work. The recruitment consultants have consistently provided high quality CVs. And they work very hard to get us the right candidates for the roles under some tight deadlines. What sets them apart from the rest is their loyalty and ability to build relationships; I trust their judgement, their honesty and their appraisal of candidates. I look forward to continuing to work with them in the future."
+      ]
+    },
+    {
+      "name": "Rachael Smith",
+      "role": "Regional HR Manager London & SE Region – Sir Robert McAlpine",
+      "credit": "Rachael Smith - Regional HR Manager London & SE Region - Sir Robert McAlpine",
+      "quote": [
+        "I'd just like to email you with some statistical analysis I have done in the last week, it shows you know the business, you scrutinise candidates thoroughly before they even get to us and that you select the right people for us for the right reasons.",
+        "It does not go unnoticed or appreciated the hard work you put in and how well things are working in the partnership."
+      ]
+    },
+    {
+      "name": "Kevin Taylor",
+      "role": "Chairman – McLaren Construction – Construction Enquirer June 2021",
+      "credit": "Kevin Taylor – Chairman - McLaren Construction - Construction Enquirer June 2021",
+      "quote": [
+        "McLaren teamed up with recruitment specialist Fawkes & Reece to fill professional roles as its workload continues to grow. There is an exciting pipeline of opportunities within McLaren, as all the business units grow into new and existing sectors, Fawkes and Reece will lead our recruitment drive searching for the most ambitious and talented people in the industry to join us."
+      ]
+    },
+    {
+      "name": "Phil Pringle",
+      "role": "Managing Director – Construction – McLaren Group",
+      "credit": "Phil Pringle - Managing Director - Construction - McLaren Group",
+      "quote": [
+        "Fawkes & Reece have for many years worked closely with the McLaren Group. They have got to know our business very well and in doing so continue to assist us in making key and strategic appointments for jobs at all levels of seniority. They add significant value to our recruitment programme and have become a valued partner to the business."
+      ]
+    },
+    {
+      "name": "Victoria Deal",
+      "role": "Group Head of Recruitment – Countryside Properties",
+      "credit": "Victoria Deal – Group Head of Recruitment – Countryside Properties",
+      "quote": [
+        "We have partnered with Fawkes & Reece for a number of years now, and watching our relationship blossom over the last few years in particular has been really inspiring to me. Our relationship started in our Northern businesses, where they remain our “go to” partner but we have expanded significantly in recent times across the Midlands and the South - to now being one of the largest suppliers to Countryside, having provided solutions in all areas of our business. Fawkes & Reece are not only trusted advisors to Countryside with regards to the recruitment market, but also on best practice and process, having introduced us to our fantastic vendor management system and led a pilot on our behalf whilst we adjusted our process internally. They have supported with the introduction of invaluable team members to both my team and the wider business, and are highly regarded by Hiring Managers across the Group. The particular support, communication and attention afforded to us by Kal, Chelsey, John & Ray has been exceptional, and I feel completely confident that on the rare occasion I have any concerns or issues, they are quickly overcome and alleviated. Fawkes & Reece are a truly relationship focused business who pride themselves in staying well connected to me and my team, as well as to our Hiring Managers and we would be at a loss without their support. Here’s to many more positive years!"
+      ]
+    },
+    {
+      "name": "Chris Dreher",
+      "role": "Operations Director – Telford Homes",
+      "credit": "Chris Dreher - Operations Director - Telford Homes",
+      "quote": [
+        "Fawkes & Reece continue to be a highly valued and key partner in our recruitment strategy. The Fawkes & Reece team have taken time to over the years to get to understand our values and the high calibre of personnel we look to recruit. Fawkes & Reece prove time and time again the value they can add through the high level of detail they adopt and considered way in which they engage with my team and manage the process. This is all with the combined aim of helping Telford Homes deliver a professional recruitment experience for candidates."
+      ]
+    },
+    {
+      "name": "Simon Hunt",
+      "role": "Winvic",
+      "credit": "Simon Hunt – Winvic",
+      "quote": [
+        "We were introduced to Fawkes and Reece through a longstanding recruitment industry contact who had joined their senior team. Keeley Davis was appointed to look after our business requirements and needs, she immediately took the time to understand our business, our culture, and our values. It wasn’t a case of just firing a CV at us and hoping it sticks. Our people are our greatest asset, so it was important the Fawkes and Reece team understood the importance of this to us!"
+      ]
+    },
+    {
+      "name": "David Ward",
+      "role": "Managing Director – Winvic",
+      "credit": "David Ward – Managing Director – Winvic",
+      "quote": [
+        "Finding good candidates is always difficult, finding quality candidates in a busy market is a real challenge. We engaged with Fawkes and Reece to find candidates to fill some key positions, that a recent restructuring and increase in workload had generated. This required the expertise of someone who not only had access to potential candidates but could do the background work to ensure that the candidates would fit with Winvic and Winvic would fit with them. We had some quality candidates to interview and following this, the difficult decision of which ones not to make an offer too. That is only part of the journey and Fawkes and Reece were very thorough on the follow ups and feedback and helping turn an offer into the point where someone is ready to join the company. We are working with them on further positions and their understanding of our business is the key to our successful relationship."
+      ]
+    },
+    {
+      "name": "Nick Oddy",
+      "role": "Managing Director – ISG Agility",
+      "credit": "Nick Oddy – Managing Director – ISG Agility",
+      "quote": [
+        "A dynamic, diligent and considered approach to recruitment, F&R have always supported our business in a way that ensures that you know that a high level of talent will be offered to you for consideration."
+      ]
+    },
+    {
+      "name": "Paul Timlin",
+      "role": "Group MD – Coinford",
+      "credit": "Paul Timlin – Group MD – Coinford",
+      "quote": [
+        "We have had the pleasure of working alongside Keeley & Fawkes & Reece for the last 15 years plus and we have always found them to be trustworthy, honest, straight-talking, and diligent. We employ near on 1000 people and are very pleased to say that Fawkes & Reece are our first port of call for our staff appointments. We are very pleased to have such a partner; staff is one of the biggest challenges we have as an industry and so we are pleased to have a partner like Fawkes & Reece."
+      ]
+    },
+    {
+      "name": "Jason Griffiths",
+      "role": "Regional Director – VINCI Construction UK",
+      "credit": "Jason Griffiths - Regional Director - VINCI Construction UK",
+      "quote": [
+        "Fawkes and Reece have always gone the extra mile for us in order to secure decent, reliable candidates that align with the job role profile that we agree. In today’s market place this is essential and that’s why they are one of our preferred suppliers!"
+      ]
+    },
+    {
+      "name": "Kingsley Thornton",
+      "role": "Director – Domis Construction",
+      "credit": "Kingsley Thornton - Director - Domis Construction",
+      "quote": [
+        "We have partnered with Fawkes & Reece for a number of years now. Their approach has always been honest, transparent, and factual, which has helped us to source employees who have gone on to have very successful careers with us. In a very competitive marketplace, it is difficult to find a recruitment specialist that you truly believe shares your core values. With Fawkes & Reece we have not only found a recruitment business that shares these values but, helps us to continue to achieve them. We have always prided ourselves on building long standing relationships with our key partners and we would consider Fawkes & Reece to be part of that select group and look forward to continuing to develop our business further with the support of Fawkes & Reece."
+      ]
+    },
+    {
+      "name": "James Hindes",
+      "role": "Managing Director – VolkerFitzpatrick",
+      "credit": "James Hindes - Managing Director - VolkerFitzpatrick",
+      "quote": [
+        "Fawkes & Reece do what is says on the tin; they spend valuable time understanding the culture & values of your business and then fill your resource needs with high calibre staff, right first time …. Avoiding numerous interviews. In addition I’ve found Fawkes & Reece's response time and capability to be ahead of the rest!"
+      ]
+    },
+    {
+      "name": "Chris Wallace",
+      "role": "Operations Director – Lovell",
+      "credit": "Chris Wallace - Operations Director - Lovell",
+      "quote": [
+        "I would like to personally say it has been a great experience working with Fawkes & Reece over the last 18 months. Their personable approach along with a desire to really understand what the business needs are is clear to see. I, along with my team have built up a great rapport with our account manager and a general trust in the quality candidates he puts across to us. They have successfully placed 19 candidates into the business over the last 18 months and this is down to their sheer tenacity and hard work to ensure that Fawkes & Reece remain our number 1 supplier in London."
+      ]
+    },
+    {
+      "name": "Chris Lafferty",
+      "role": "Construction Director – Wain Homes",
+      "credit": "Chris Lafferty – Construction Director - Wain Homes",
+      "quote": [
+        "The labour market across all levels including blue and white-collar professions is consistently competitive, and we know that the demand for skillsets have been at an all-time high across the industry. By partnering with Fawkes & Reece we have the confidence that when we have requirements across our project teams, we will receive a strong calibre of profiles, who have been properly informed of our business and our projects and are motivated to become part of our team. In Chelsey, we have a true account manager, who with the support of her team, has impressed us with their approach and overall ability to deliver consistently for us. We truly value our partnership with Fawkes & Reece and look forward to continuing it, long into the future."
+      ]
+    },
+    {
+      "name": "John O'Grady",
+      "role": "Divisional Commercial Director – VolkerFitzpatrick Contractors",
+      "credit": "John O'Grady - Divisional Commercial Director - VolkerFitzpatrick Contractors",
+      "quote": [
+        "I have worked with Fawkes and Reece for many years now for our recruitment needs. They are a business who take time to know the client they are working with and understand the type of candidate who will fit in with the job, organisation and culture. I have always thought of them as very professional, knowledgeable and easy to work with. When it comes to recruitment they work across all departments and fill roles through good communication, quality candidate submittals and excellent industry knowledge. We have employed numerous candidates through Fawkes and Reece and we will continue to use them across all departments. I fully recommend their services."
+      ]
+    },
+    {
+      "name": "Kevin Austin",
+      "role": "Head of Building Services – Kier Construction",
+      "credit": "Kevin Austin - Head of Building Services - Kier Construction",
+      "quote": [
+        "Fawkes and Reece have over the past few years worked closely with me to understand my recruitment needs and have ensured that candidates they put forward for the roles I am recruiting for fit the role profile in respect of character and technical capabilities.",
+        "I have always found their staff to be professional in their approach and understanding of my needs as well as a good sounding board for understanding the market conditions when it comes to setting package levels."
+      ]
+    },
+    {
+      "name": "Graham Simpson",
+      "role": "Commercial Manager – Higgins Partnerships",
+      "credit": "Graham Simpson – Commercial Manager – Higgins Partnerships",
+      "quote": [
+        "F+R has supported our growth since the lockdown to great effect. There’s no hard sell – a light touch approach enables clear communication and swift progress in the recruitment process. They know our business, understand our requirements, and a personable professional service has been crucial in assisting us to secure the right people to advance our development in a challenging market."
+      ]
+    }
+  ],
+  "featuredJobs": [
+    {
+      "title": "Contracts Manager",
+      "url": "https://fawkesandreece.co.uk/jobs/job/construction-management/contracts-manager/2810824",
+      "location": "Cardiff",
+      "salary": "£78K- £82K per Year",
+      "contract": "Permanent",
+      "type": "Full Time",
+      "reference": "OJFR5486_1790349794",
+      "posted": "2026-09-25",
+      "category": "construction-management",
+      "summary": [
+        "This is an excellent opportunity to join an established housebuilder with a strong pipeline of work across South Wales."
+      ]
+    },
+    {
+      "title": "Project manager",
+      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/project-manager-/2810823",
+      "location": "Eastbourne",
+      "salary": "£380.00- £450.00 per Day",
+      "contract": "Freelance",
+      "type": "Full Time",
+      "reference": "Eastbourne_1790348572",
+      "posted": "2026-09-25",
+      "category": "trades-and-labour",
+      "summary": [
+        "Location: Eastbourne Contract: Freelance Duration: 35 weeks Start Date: TBC",
+        "We are looking for an experienced New Build Project Manager to oversee and deliver a residential new-build project from pre-construction through to completion and handover."
+      ]
+    },
+    {
+      "title": "Assistant Site manager",
+      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/assistant-site-manager-/2810822",
+      "location": "Crawley",
+      "salary": "£240.00- £250.00 per Day",
+      "contract": "Contract",
+      "type": "Full Time",
+      "reference": "Crawley_1790348424",
+      "posted": "2026-09-25",
+      "category": "trades-and-labour",
+      "summary": [
+        "We are currently looking for an experienced Assistant Site Manager to join a developer on a busy residential development in Crawley . This is a freelance position. The Assistant Site Manager will be supporting the Site Manager and Project Manager on site and taking plots from 1st fix to completion.",
+        "Responsibilities for Assistant Site Manager:"
+      ]
+    },
+    {
+      "title": "Recruitment Resourcer",
+      "url": "https://fawkesandreece.co.uk/jobs/job/marketing/recruitment-resourcer-/2810819",
+      "location": "Cardiff",
+      "salary": "£20K- £26K per Year",
+      "contract": "Permanent",
+      "type": "Full Time",
+      "reference": "SSCC01_1790347848",
+      "posted": "2026-09-25",
+      "category": "marketing",
+      "summary": [
+        "About Fawkes & Reece",
+        "Fawkes & Reece is a leading recruitment agency for the construction sector and has a proven track record of supplying both permanent and temporary candidates into some of the UK's best known construction companies."
+      ]
+    },
+    {
+      "title": "Dumper/Roller Driver",
+      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/dumper-roller-driver/2810816",
+      "location": "Exmouth",
+      "salary": "£20.00- £21.00 per Hour",
+      "contract": "Contract",
+      "type": "Full Time",
+      "reference": "Dumper Driver_1790347047",
+      "posted": "2026-09-25",
+      "category": "trades-and-labour",
+      "summary": [
+        "Role: Dumper Roller Driver",
+        "Location: Exmouth"
+      ]
+    },
+    {
+      "title": "Electrical Project Manager",
+      "url": "https://fawkesandreece.co.uk/jobs/job/electrical/electrical-project-manager/2810811",
+      "location": "Swindon (Office and Site Based)",
+      "salary": "£50K- £62K per Year",
+      "contract": "Permanent",
+      "type": "Full-time",
+      "reference": "EPM_Maid_1790346754",
+      "posted": "2026-09-25",
+      "category": "electrical",
+      "summary": [
+        "Location: Swindon (Office and Site Based)",
+        "Type: Full-time"
+      ]
+    }
+  ],
+  "sectors": [
+    {
+      "title": "Building",
+      "body": "Working with respected regional main contractors to the largest and leading main contractors in London, the UK and the world. Projects span the commercial, residential and mixed-use as well as education, health, retail, technology, leisure and industrial.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6822",
+      "cta": "Browse Building Jobs",
+      "image": "/media/Major-Projects.jpg",
+      "alt": "Lit construction site at dusk"
+    },
+    {
+      "title": "House Building",
+      "body": "Working closely with respected housing developers across the UK in both traditional building, timber and high rise, steel and RC frame.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6830",
+      "cta": "Browse House Building Jobs",
+      "image": "/media/Sector-House-Building.jpg",
+      "alt": "Sector-House-Building"
+    },
+    {
+      "title": "Social Housing & New Homes",
+      "body": "Working closely with the providers of housing regeneration, maintenance and decent homes schemes across nationwide.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6823",
+      "cta": "Browse Social Housing & New Homes Jobs",
+      "image": "/media/Social-Housing-3.jpg",
+      "alt": "modern apartments"
+    },
+    {
+      "title": "Civil Engineering",
+      "body": "Highways, utilities, power, groundworks and major civil engineering contracts for flagship names and some the most respected organisations in the world.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6820",
+      "cta": "Browse Civil Engineering Jobs",
+      "image": "/media/Civil-Engineering.jpg",
+      "alt": "Civil Engineering"
+    },
+    {
+      "title": "Rail",
+      "body": "Working across all elements from trackside, underground and all aspects of the rail industry and major projects.",
+      "href": "https://fawkesandreece.co.uk/jobs/?kwd=rail",
+      "cta": "Browse Rail Jobs",
+      "image": "/media/Rail.jpg",
+      "alt": "Rail"
+    },
+    {
+      "title": "Mechanical & Electrical",
+      "body": "Working with respected M&E contractors of all levels and specialises in building services recruitment directly into the main contractors.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6819",
+      "cta": "Browse Mechanical & Electrical Jobs",
+      "image": "/media/Building-Services.jpg",
+      "alt": "architect or engineer"
+    },
+    {
+      "title": "Facilities Management",
+      "body": "Working with respected facilities management providers of all levels and specialise in facilities management recruitment.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6826",
+      "cta": "Browse Facilities Management Jobs",
+      "image": "/media/Sector-Fit-Out.jpg",
+      "alt": "Sector-Fit-Out"
+    },
+    {
+      "title": "Fit Out and Interior Services",
+      "body": "All aspects of the interiors and fit out sector from commercial design & build and Traditional contractors, as well as high quality interior contractors, specialist trades and businesses focused on retail, residential and leisure.",
+      "href": "https://fawkesandreece.co.uk/jobs/?jc=6828",
+      "cta": "Browse Fit Out and Interior Services Jobs",
+      "image": "/media/Sector-Fit-Out.jpg",
+      "alt": "Sector-Fit-Out"
+    }
+  ],
+  "reasons": [
+    "Market leading and trusted industry specialist",
+    "Over 180 consultants operating from our offices in Central London, Bolton, Sheffield, Southampton, Brighton, Northampton, Birmingham, Cardiff and Bristol.",
+    "We deliver compliant and reference checked blue collar and white collar professionals.",
+    "Leading search & selection service",
+    "Proven account management capability for the most respected names in Construction and House Building",
+    "REC trained and qualified recruitment consultants",
+    "We have an in-house compliance team focused on auditing documents to ensure our workers always remain 100% compliant and up to date with the latest UK legislation including IR35",
+    "Track record of supplying to most complex and challenging construction projects across the UK",
+    "Fawkes & Reece is a business that operates with values."
+  ],
+  "phones": [
+    {
+      "office": "London",
+      "phone": "0207 288 0166",
+      "tel": "tel:02072880166"
+    },
+    {
+      "office": "Southampton",
+      "phone": "023 8068 2662",
+      "tel": "tel:02380682662"
+    },
+    {
+      "office": "Brighton",
+      "phone": "01273 003 033",
+      "tel": "tel:01273003033"
+    },
+    {
+      "office": "Bolton",
+      "phone": "01204 554 880",
+      "tel": "tel:01204554880"
+    },
+    {
+      "office": "Sheffield",
+      "phone": "0114 213 0900",
+      "tel": "tel:01142130900"
+    },
+    {
+      "office": "Birmingham",
+      "phone": "01827 211 022",
+      "tel": "tel:01827211022"
+    },
+    {
+      "office": "Northampton",
+      "phone": "01604 805 646",
+      "tel": "tel:01604805646"
+    },
+    {
+      "office": "Cardiff",
+      "phone": "029 2047 4000",
+      "tel": "tel:02920474000"
+    },
+    {
+      "office": "Bristol",
+      "phone": "0117 989 2444",
+      "tel": "tel:01179892444"
+    }
+  ],
+  "email": "recruitment@fr-group.co.uk",
+  "legal": [
+    {
+      "label": "Terms",
+      "href": "https://fawkesandreece.co.uk/terms"
+    },
+    {
+      "label": "Privacy Notice",
+      "href": "https://fawkesandreece.co.uk/disclaimer"
+    },
+    {
+      "label": "Modern Slavery",
+      "href": "https://fawkesandreece.co.uk/modern-slavery-human-trafficking"
+    }
+  ],
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/company/fawkes&reece"
+    },
+    {
+      "name": "X",
+      "href": "https://twitter.com/FawkesandReece"
+    },
+    {
+      "name": "Facebook",
+      "href": "https://www.facebook.com/fawkesandreece"
+    }
+  ],
+  "photos": {
+    "slider23_1.jpg": "/media/slider23_1.jpg",
+    "slider23_2.jpg": "/media/slider23_2.jpg",
+    "ThinkstockPhotos-476266625.jpg": "/media/ThinkstockPhotos-476266625.jpg",
+    "Constrcution-Workers.jpg": "/media/Constrcution-Workers.jpg",
+    "Construction-Workers-2.jpg": "/media/Construction-Workers-2.jpg"
+  },
+  "accreditations": [
+    {
+      "file": "image-7-1-1.png",
+      "alt": "REC Corporate Member",
+      "src": "/media/image-7-1-1.png"
+    },
+    {
+      "file": "image-2.png",
+      "alt": "FT 1000 Europe's Fastest Growing Companies",
+      "src": "/media/image-2.png"
+    },
+    {
+      "file": "image-1-1.png",
+      "alt": "Recruiter Fast 50",
+      "src": "/media/image-1-1.png"
+    },
+    {
+      "file": "HOT100_2024_Logo2.png",
+      "alt": "Recruiter Hot 100 2024",
+      "src": "/media/HOT100_2024_Logo2.png"
+    }
+  ]
+}
