@@ -43,7 +43,7 @@ export function Hero() {
 
   return <section className="hero" id="top" ref={ref} data-tone="dark" aria-labelledby="hero-title">
     <div className="hero-media" aria-hidden="true">
-      <div className="hero-photo duo">
+      <div className="hero-photo">
         <Image src={photos["slider23_1.jpg"]} alt="" fill priority sizes="100vw" />
       </div>
     </div>

@@ -3,10 +3,11 @@
 import gsap from "gsap";
 import type { ReactNode } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { Badges } from "@/components/Badges";
 import { Logo } from "@/components/Logo";
 import { focusOverlay, usePageMotion } from "@/components/motion";
 import { Arrow, Button, Plus, SocialIcon, reducedMotion } from "@/components/ui";
-import { accreditations, email, legal, links, nav, phones, socials } from "@/lib/content";
+import { email, legal, links, nav, phones, socials } from "@/lib/content";
 import type { brandIcons } from "@/lib/brand-icons";
 
 /* Full-screen menu. A black sheet wipes down from the top, then the groups rise in. Closing plays it in reverse.
@@ -129,6 +130,7 @@ function Header() {
       <span className="menu-lines" aria-hidden="true"><span /><span /></span><span className="menu-word">Menu</span>
     </button>
     <div className="header-actions" data-hero-header>
+      <Badges className="header-badges" />
       <a className="header-link" href={links.jobs}>Jobs</a>
       <a className="header-link" href={links.contact}>Contact</a>
       <Button tone="blue" href={links.register}>Register</Button>
@@ -170,10 +172,7 @@ function Footer() {
       </div>
     </div>
     <div className="wrap footer-bottom">
-      <ul className="accreditations">{accreditations.map((a) => <li key={a.file}>
-        {/* eslint-disable-next-line @next/next/no-img-element -- tiny official badges, served at their own size */}
-        <img src={a.src} alt={a.alt} loading="lazy" />
-      </li>)}</ul>
+      <Badges className="footer-badges" />
       <Socials />
       <p className="footer-legal">© {new Date().getFullYear()} Fawkes &amp; Reece Recruitment Group{legal.map((l) => <span key={l.href}> · <a href={l.href}>{l.label}</a></span>)}</p>
     </div>

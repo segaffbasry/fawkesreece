@@ -10,6 +10,7 @@
     "scrape": "node scripts/scrape.mjs",
     "images": "node scripts/images.mjs",
     "logo": "node scripts/logo.mjs",
+    "badges": "python3 scripts/badges.py",
     "links": "node scripts/check-links.mjs"
   },
   "dependencies": {
