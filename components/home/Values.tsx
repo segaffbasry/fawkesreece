@@ -1,23 +1,24 @@
 import Image from "next/image";
-import { Arrow, Label } from "@/components/ui";
-import { photos, why } from "@/lib/content";
+import { Label } from "@/components/ui";
+import { imagery, why } from "@/lib/content";
 
-/* "Why Fawkes & Reece" as gather.ai's dark See → Think → Act strip: the statement top left, the five values in a
-   row joined by arrows, and the tab's three paragraphs beneath. */
+/* "Why Fawkes & Reece", rebuilt light and visual (client feedback: the dark strip felt old school). The five values
+   are photo cards from the company's own library: ambition, investing in people, charity work, projects delivered
+   and the team celebrating. The tab's three paragraphs sit beneath. */
 export function Values() {
   const [lead, ...paragraphs] = why.paragraphs;
-  return <section className="values" data-tone="dark" aria-labelledby="values-title">
-    <div className="values-photo duo" aria-hidden="true"><Image src={photos["Construction-Workers-2.jpg"]} alt="" fill sizes="100vw" data-parallax /></div>
-    <div className="wrap values-inner">
+  return <section className="section values" data-tone="light" aria-labelledby="values-title">
+    <div className="wrap values-head">
       <Label>Why Fawkes &amp; Reece</Label>
-      <h2 className="values-title" id="values-title" data-heading>{lead.replace(/:$/, "")}</h2>
-      <ol className="value-row">
-        {why.values.map((value, i) => <li key={value} data-card>
-          <span className="value-name">{value}</span>
-          {i < why.values.length - 1 && <Arrow className="value-arrow" />}
-        </li>)}
-      </ol>
-      <div className="value-notes">{paragraphs.map((p) => <p key={p} data-lines>{p}</p>)}</div>
+      <h2 className="section-title" id="values-title" data-heading>{lead.replace(/:$/, "")}</h2>
     </div>
+    <ol className="wrap value-cards">
+      {why.values.map((value, i) => <li key={value} className="value-card" data-card>
+        <Image src={imagery.values[i].src} alt={imagery.values[i].alt} fill sizes="(max-width: 760px) 70vw, 20vw" />
+        <span className="value-num" aria-hidden="true">0{i + 1}</span>
+        <span className="value-name">{value}</span>
+      </li>)}
+    </ol>
+    <div className="wrap value-notes">{paragraphs.map((p) => <p key={p} data-lines>{p}</p>)}</div>
   </section>;
 }

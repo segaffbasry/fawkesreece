@@ -1,54 +1,51 @@
 "use client";
 
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { Arrow, Button, Label } from "@/components/ui";
+import { Arrow, Button, Label, reducedMotion } from "@/components/ui";
 import { links, sectors } from "@/lib/content";
 
-/* Sectors as a horizontal scroll. On desktop the section pins and the cards travel sideways as you scroll down,
-   with a progress bar and counter. On touch screens, narrow screens and with reduced motion it is a native sideways
-   swipe. Light ground and natural-colour photographs (client feedback: the dark panels felt heavy and dated).
-   Each card opens the live site's own job search filtered to that sector. */
+/* Sectors as a sideways row that never holds the page (client feedback: the pinned scroll made you scroll through
+   the whole section to get past it). Arrows, swipe, trackpad and keyboard move the row; the counter and progress
+   bar follow. Each card opens the live site's own job search filtered to that sector. */
 export function Sectors() {
-  const ref = useRef<HTMLElement>(null);
-  const [current, setCurrent] = useState(1);
+  const track = useRef<HTMLUListElement>(null);
+  const [state, setState] = useState({ current: 1, progress: 0, start: true, end: false });
   useEffect(() => {
-    const el = ref.current; if (!el) return;
-    gsap.registerPlugin(ScrollTrigger);
-    const track = el.querySelector<HTMLElement>(".sector-track")!;
-    const bar = el.querySelector<HTMLElement>(".sector-progress span")!;
-    const show = (p: number) => { bar.style.transform = `scaleX(${p})`; setCurrent(Math.min(sectors.length, 1 + Math.round(p * (sectors.length - 1)))); };
-    const mm = gsap.matchMedia();
-    mm.add("(min-width: 900px) and (pointer: fine) and (prefers-reduced-motion: no-preference)", () => {
-      el.classList.add("is-pinned");
-      const distance = () => Math.max(0, track.scrollWidth - track.clientWidth);
-      const tween = gsap.to(track.children, {
-        x: () => -distance(), ease: "none",
-        scrollTrigger: { trigger: el, start: "top top", end: () => `+=${distance()}`, pin: true, scrub: .6, invalidateOnRefresh: true, anticipatePin: 1, onUpdate: (self) => show(self.progress) },
-      });
-      return () => { tween.scrollTrigger?.kill(); tween.kill(); el.classList.remove("is-pinned"); gsap.set(track.children, { clearProps: "transform" }); };
-    });
-    // Without the pin, the bar and counter follow the native sideways scroll.
-    const onScroll = () => { if (!el.classList.contains("is-pinned")) show(track.scrollLeft / Math.max(1, track.scrollWidth - track.clientWidth)); };
-    track.addEventListener("scroll", onScroll, { passive: true });
-    return () => { mm.revert(); track.removeEventListener("scroll", onScroll); };
+    const el = track.current; if (!el) return;
+    const update = () => {
+      const max = Math.max(1, el.scrollWidth - el.clientWidth);
+      const p = el.scrollLeft / max;
+      setState({ current: Math.min(sectors.length, 1 + Math.round(p * (sectors.length - 1))), progress: p, start: el.scrollLeft < 4, end: el.scrollLeft > max - 4 });
+    };
+    update();
+    el.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => { el.removeEventListener("scroll", update); window.removeEventListener("resize", update); };
   }, []);
+  const step = (direction: number) => {
+    const el = track.current; if (!el) return;
+    const card = el.querySelector<HTMLElement>(".sector");
+    el.scrollBy({ left: direction * ((card?.offsetWidth ?? 400) + 20), behavior: reducedMotion() ? "auto" : "smooth" });
+  };
 
-  return <section className="sectors" ref={ref} data-tone="light" aria-labelledby="sectors-title">
+  return <section className="section sectors" data-tone="light" aria-labelledby="sectors-title">
     <div className="wrap sectors-head">
       <div>
         <Label>Sectors</Label>
         <h2 className="section-title" id="sectors-title" data-heading>Sectors</h2>
       </div>
-      <div className="sectors-meta" aria-hidden="true">
-        <span className="sector-count">{String(current).padStart(2, "0")} / {String(sectors.length).padStart(2, "0")}</span>
-        <span className="sector-progress"><span /></span>
+      <div className="sectors-meta">
+        <span className="sector-count" aria-hidden="true">{String(state.current).padStart(2, "0")} / {String(sectors.length).padStart(2, "0")}</span>
+        <span className="sector-progress" aria-hidden="true"><span style={{ transform: `scaleX(${Math.max(.125, state.progress)})` }} /></span>
+        <div className="sector-arrows">
+          <button className="square-button" onClick={() => step(-1)} disabled={state.start} aria-label="Previous sectors"><Arrow direction="left" /></button>
+          <button className="square-button" onClick={() => step(1)} disabled={state.end} aria-label="Next sectors"><Arrow /></button>
+        </div>
       </div>
     </div>
-    <ul className="sector-track" tabIndex={0} aria-label="Sectors">
-      {sectors.map((s, i) => <li key={s.title} className="sector">
+    <ul className="sector-track" ref={track} tabIndex={0} aria-label="Sectors">
+      {sectors.map((s, i) => <li key={s.title} className="sector" data-card>
         <a href={s.href!} className="sector-link">
           <span className="sector-photo"><Image src={s.image!} alt="" fill sizes="(max-width: 900px) 80vw, 30vw" /></span>
           <span className="sector-index">{String(i + 1).padStart(2, "0")}</span>

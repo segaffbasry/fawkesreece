@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-26",
+  "scrapedAt": "2026-09-29",
   "hero": {
     "title": "A Specialist Recruiter for the Built Environment",
     "lede": "Supplying White Collar, Blue Collar and Executive Search to all areas of construction, house building, rail and infrastructure nationwide."
@@ -305,92 +305,91 @@
   ],
   "featuredJobs": [
     {
+      "title": "Purchase Ledger Clerk",
+      "url": "https://fawkesandreece.co.uk/jobs/job/administration/purchase-ledger-clerk-/2811201",
+      "location": "Ringwood",
+      "salary": "£17.00- £18.00 per Hour",
+      "contract": "Contract",
+      "type": "Full Time",
+      "reference": "PLCCS2902926_1790699325",
+      "posted": "2026-09-29",
+      "category": "administration",
+      "summary": [
+        "A leading regional contractor is seeking a Purchase Ledger Clerk to join their finance team based in Hampshire. Joining a highly experienced and long standing finance department. This opportunity is initially for a three month contract either on a full time/ part time basis.",
+        "This Purchase Ledger Clerk role will include processing purchase order numbers, processing employee expenses and company credit card expenses. Producing weekly pay runs, and reconciliation supplier statements as well as oversee up to date supplier records. Providing support and assistance with any relevant queries from both internal and external parties."
+      ]
+    },
+    {
+      "title": "Bid Writer",
+      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/bid-writer/2811196",
+      "location": "West Malling",
+      "salary": "£250.00- £400.00 per Day",
+      "contract": "Contract",
+      "type": "Full Time",
+      "reference": "West Malling_1790697074",
+      "posted": "2026-09-29",
+      "category": "trades-and-labour",
+      "summary": [
+        "Too Apply - Please send your Cv to [email protected] or for More info contact Lewis on 07752467537."
+      ]
+    },
+    {
+      "title": "Administrator - Oxford",
+      "url": "https://fawkesandreece.co.uk/jobs/job/administration/administrator-oxford/2811195",
+      "location": "Wallingford",
+      "salary": "£13.00- £14.00 per Hour",
+      "contract": "Contract",
+      "type": "Full Time",
+      "reference": "ADMOXD_1790696510",
+      "posted": "2026-09-29",
+      "category": "administration",
+      "summary": [
+        "The Administrator role: general administrator duties including working on and uploading documents to our CAFM system (training given). Requirements for the Labourer: * proficient in word, excel, outlook, good communicator * good general admin experience and IT literate. * Familiarity with any computer based scheduling / document system would be helpful What to do next: If you think you would be a good candidate for this Labourer position or would like to find out more about the role, please reach out to Toby 07856918080"
+      ]
+    },
+    {
+      "title": "Estimator",
+      "url": "https://fawkesandreece.co.uk/jobs/job/estimation/estimator/2811192",
+      "location": "Romford",
+      "salary": "£30K- £50K per Year",
+      "contract": "Permanent",
+      "type": "Full Time",
+      "reference": "48696371_1790695216",
+      "posted": "2026-09-29",
+      "category": "estimation",
+      "summary": [
+        "Estimator",
+        "Amazing new opportunity to work with a reputable waterproof specialist contractor in East London."
+      ]
+    },
+    {
       "title": "Contracts Manager",
-      "url": "https://fawkesandreece.co.uk/jobs/job/construction-management/contracts-manager/2810824",
-      "location": "Cardiff",
-      "salary": "£78K- £82K per Year",
+      "url": "https://fawkesandreece.co.uk/jobs/job/project-management/contracts-manager/2811184",
+      "location": "Winchester",
+      "salary": "£80K- £90K per Year",
       "contract": "Permanent",
       "type": "Full Time",
-      "reference": "OJFR5486_1790349794",
-      "posted": "2026-09-25",
-      "category": "construction-management",
+      "reference": "MO290926_1790690053",
+      "posted": "2026-09-29",
+      "category": "project-management",
       "summary": [
-        "This is an excellent opportunity to join an established housebuilder with a strong pipeline of work across South Wales."
+        "About this Role:",
+        "Reporting to the Area Manager and working alongside two other Contracts Managers, you will be responsible for the successful delivery of 2-3 projects typically from input to tender and second stage preconstruction, then throughout construction phase to handover through your construction teams."
       ]
     },
     {
-      "title": "Project manager",
-      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/project-manager-/2810823",
-      "location": "Eastbourne",
-      "salary": "£380.00- £450.00 per Day",
-      "contract": "Freelance",
-      "type": "Full Time",
-      "reference": "Eastbourne_1790348572",
-      "posted": "2026-09-25",
-      "category": "trades-and-labour",
-      "summary": [
-        "Location: Eastbourne Contract: Freelance Duration: 35 weeks Start Date: TBC",
-        "We are looking for an experienced New Build Project Manager to oversee and deliver a residential new-build project from pre-construction through to completion and handover."
-      ]
-    },
-    {
-      "title": "Assistant Site manager",
-      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/assistant-site-manager-/2810822",
-      "location": "Crawley",
-      "salary": "£240.00- £250.00 per Day",
-      "contract": "Contract",
-      "type": "Full Time",
-      "reference": "Crawley_1790348424",
-      "posted": "2026-09-25",
-      "category": "trades-and-labour",
-      "summary": [
-        "We are currently looking for an experienced Assistant Site Manager to join a developer on a busy residential development in Crawley . This is a freelance position. The Assistant Site Manager will be supporting the Site Manager and Project Manager on site and taking plots from 1st fix to completion.",
-        "Responsibilities for Assistant Site Manager:"
-      ]
-    },
-    {
-      "title": "Recruitment Resourcer",
-      "url": "https://fawkesandreece.co.uk/jobs/job/marketing/recruitment-resourcer-/2810819",
-      "location": "Cardiff",
-      "salary": "£20K- £26K per Year",
+      "title": "Site Manager",
+      "url": "https://fawkesandreece.co.uk/jobs/job/site-management/site-manager/2811176",
+      "location": "Manchester",
+      "salary": "£45K- £47K per Year",
       "contract": "Permanent",
       "type": "Full Time",
-      "reference": "SSCC01_1790347848",
-      "posted": "2026-09-25",
-      "category": "marketing",
+      "reference": "SMSMD_1790688271",
+      "posted": "2026-09-29",
+      "category": "site-management",
       "summary": [
-        "About Fawkes & Reece",
-        "Fawkes & Reece is a leading recruitment agency for the construction sector and has a proven track record of supplying both permanent and temporary candidates into some of the UK's best known construction companies."
-      ]
-    },
-    {
-      "title": "Dumper/Roller Driver",
-      "url": "https://fawkesandreece.co.uk/jobs/job/trades-and-labour/dumper-roller-driver/2810816",
-      "location": "Exmouth",
-      "salary": "£20.00- £21.00 per Hour",
-      "contract": "Contract",
-      "type": "Full Time",
-      "reference": "Dumper Driver_1790347047",
-      "posted": "2026-09-25",
-      "category": "trades-and-labour",
-      "summary": [
-        "Role: Dumper Roller Driver",
-        "Location: Exmouth"
-      ]
-    },
-    {
-      "title": "Electrical Project Manager",
-      "url": "https://fawkesandreece.co.uk/jobs/job/electrical/electrical-project-manager/2810811",
-      "location": "Swindon (Office and Site Based)",
-      "salary": "£50K- £62K per Year",
-      "contract": "Permanent",
-      "type": "Full-time",
-      "reference": "EPM_Maid_1790346754",
-      "posted": "2026-09-25",
-      "category": "electrical",
-      "summary": [
-        "Location: Swindon (Office and Site Based)",
-        "Type: Full-time"
+        "We are working with a well-established and reputable Social Housing Contractor who have a great company culture and ethos - the company genuinely value their staff and treat their employees well and as such have great staff retention rates. The company are proud to give back to the communities they serve, by championing local employment, fostering development and career progression and ensuring a positive work environment for all staff.",
+        "The company work across several framework schemes and have recently been awarded a new contract to work in Manchester on a re-roofing contract to tenanted Social Housing properties. They also have a position available to work on a kitchen and bathroom replacement work stream."
       ]
     }
   ],
@@ -552,7 +551,17 @@
     "slider23_2.jpg": "/media/slider23_2.jpg",
     "ThinkstockPhotos-476266625.jpg": "/media/ThinkstockPhotos-476266625.jpg",
     "Constrcution-Workers.jpg": "/media/Constrcution-Workers.jpg",
-    "Construction-Workers-2.jpg": "/media/Construction-Workers-2.jpg"
+    "Construction-Workers-2.jpg": "/media/Construction-Workers-2.jpg",
+    "IMG_2638-scaled.jpg": "/media/IMG_2638-scaled.jpg",
+    "IMG_2675-scaled.jpg": "/media/IMG_2675-scaled.jpg",
+    "IMG_2811-scaled.jpg": "/media/IMG_2811-scaled.jpg",
+    "IMG_3092-scaled.jpg": "/media/IMG_3092-scaled.jpg",
+    "e1919b70-3d0d-4989-a37d-0502dfd2271c.jpg": "/media/e1919b70-3d0d-4989-a37d-0502dfd2271c.jpg",
+    "McLaren-Construction-Nile-Street.jpg": "/media/McLaren-Construction-Nile-Street.jpg",
+    "agreement-3489902-scaled.jpg": "/media/agreement-3489902-scaled.jpg",
+    "ThinkstockPhotos-dv1961032-1-scaled.jpg": "/media/ThinkstockPhotos-dv1961032-1-scaled.jpg",
+    "8gg2ne_utcm-ng-scaled.jpg": "/media/8gg2ne_utcm-ng-scaled.jpg",
+    "architecture-1541086-scaled.jpg": "/media/architecture-1541086-scaled.jpg"
   },
   "accreditations": [
     {

@@ -44,3 +44,24 @@ export const links = {
 
 // "2026-09-25" → "25 September 2026", as the live job listings print it (day first for en-GB).
 export const formatDate = (iso: string | null) => iso ? new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }) : "";
+
+// Photography chosen for each block, all from the live site's media library (content/home.json → photos).
+export const imagery = {
+  // The London office reception with the Fawkes & Reece wall, and the team in the office.
+  office: { src: photos["IMG_2638-scaled.jpg"], alt: "Reception at the Fawkes & Reece London office" },
+  team: { src: photos["IMG_2675-scaled.jpg"], alt: "The Fawkes & Reece team in the London office" },
+  // One per "What We Do" service, in order.
+  services: [
+    { src: photos["McLaren-Construction-Nile-Street.jpg"], alt: "McLaren Construction's Nile Street tower under construction" },
+    { src: photos["agreement-3489902-scaled.jpg"], alt: "Two people shaking hands across a desk" },
+    { src: photos["ThinkstockPhotos-dv1961032-1-scaled.jpg"], alt: "Construction workers reviewing plans on a platform beside a crane" },
+  ],
+  // One per core value, in order: Ambition, Invest, Care, Deliver, Succeed.
+  values: [
+    { src: photos["8gg2ne_utcm-ng-scaled.jpg"], alt: "Tower cranes above a high-rise under construction" },
+    { src: photos["IMG_2811-scaled.jpg"], alt: "Fawkes & Reece consultants holding their REC qualification certificates" },
+    { src: photos["e1919b70-3d0d-4989-a37d-0502dfd2271c.jpg"], alt: "The Fawkes & Reece team at an RSPCA charity event" },
+    { src: photos["architecture-1541086-scaled.jpg"], alt: "Cranes over a residential scheme under construction" },
+    { src: photos["IMG_3092-scaled.jpg"], alt: "The Fawkes & Reece team at an awards evening" },
+  ],
+};

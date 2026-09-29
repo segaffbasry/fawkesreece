@@ -37,7 +37,7 @@ The featured jobs are a snapshot from the live site on the date in `content/home
 - **Palette:** black #000 (the logo's tile), blue #00A2E5 (FAWKES), green #99CA3C (+ REECE) and white. Greys are black/white mixes. #00AA4F appears only in the plus overlap.
 - **Logo:** the company only publishes a 280 px GIF. `scripts/logo.mjs` measures its parts and resets the Gotham wordmark in Montserrat SemiBold, the closest open match (pixel IoU 0.72 against the GIF). The plus uses the official symbol's proportions.
 - **Type:** Montserrat is the display face (gather.ai's font, and the Gotham match). Raleway, the live site's font, is used for the body. Both are self-hosted.
-- **Photography:** the hero and sector photos are shown in natural colour. After client feedback that the duotone felt dark and dated, only the Values background keeps a treatment.
+- **Photography:** all photos are shown in natural colour. After client feedback, the earlier duotone read as dark and dated. The intro collage, service cards and value cards use photos from the live site's media library (`imagery` in `lib/content.ts`): the London office and team, a McLaren project shot, team charity and awards photos, and the site's own construction stock.
 - **Accreditations:** these are in the header (desktop) and footer, as transparent single-colour marks that take the colour of the section behind them.
   - **REC:** the official vector logo from rec.uk.com.
   - **Recruiter HOT 100 2024:** the 600 px 2024 seal.
@@ -53,7 +53,8 @@ The featured jobs are a snapshot from the live site on the date in `content/home
 - **Smooth scroll:** Lenis in lerp mode (0.125, measured on gather.ai), driven by the GSAP ticker and synced with ScrollTrigger. It is stopped during the preloader and the menu.
 - **Header:** no bar. Its colour follows the section underneath (`data-tone`), it hides on scroll down and returns on scroll up.
 - **Menu:** full-screen, a GSAP timeline in and reversed out. It traps focus, closes on Esc and returns focus to the trigger.
-- **Sectors:** on desktop the section pins and the cards travel sideways as you scroll, with a counter and progress bar. On touch screens, narrow screens and with reduced motion it is a native swipe.
+- **Sectors:** a sideways row of cards that never holds the page. A pinned version was tried, and dropped after client feedback that it forced you to scroll through the whole section. Arrows, swipe, trackpad and keyboard move it, and a counter and progress bar follow.
+- **Values:** five photo cards (one per value) on a light ground. Each card's blue or green bar grows on hover.
 - **Copied interaction:** gather.ai's button (`.btn`). A fill parked off the left edge sweeps across while changing colour, and the label flips. Positions, sizes and the 215 ms curve were sampled frame by frame and written as CSS `linear()` (`--ease-sweep`).
 
 ### Reveal moves (`components/motion.tsx`)

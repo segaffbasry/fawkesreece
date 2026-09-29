@@ -122,7 +122,11 @@ const socials = [
 ];
 
 /* Photography: the homepage slides plus the sector cards, full size. */
-const media = ["slider23_1.jpg", "slider23_2.jpg", "ThinkstockPhotos-476266625.jpg", "Constrcution-Workers.jpg", "Construction-Workers-2.jpg"];
+const media = ["slider23_1.jpg", "slider23_2.jpg", "ThinkstockPhotos-476266625.jpg", "Constrcution-Workers.jpg", "Construction-Workers-2.jpg",
+  // From the media library (2560 px): the London office and team, project and stock photography used on the live site.
+  "IMG_2638-scaled.jpg", "IMG_2675-scaled.jpg", "IMG_2811-scaled.jpg", "IMG_3092-scaled.jpg", "e1919b70-3d0d-4989-a37d-0502dfd2271c.jpg",
+  "McLaren-Construction-Nile-Street.jpg", "agreement-3489902-scaled.jpg", "ThinkstockPhotos-dv1961032-1-scaled.jpg",
+  "8gg2ne_utcm-ng-scaled.jpg", "architecture-1541086-scaled.jpg"];
 const accreditations = [
   { file: "image-7-1-1.png", alt: "REC Corporate Member" },
   { file: "image-2.png", alt: "FT 1000 Europe's Fastest Growing Companies" },
